@@ -1,4 +1,5 @@
 <!-- <?php
+//sample output
         session_start();
 
         include_once("../connections/connection.php");
