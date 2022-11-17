@@ -6,7 +6,7 @@ include('includes/homepage___navbar.php');
 
 
 
-<!--=========================START OF HEADER=============================-->
+<!--=========================START OF HEADERS=============================-->
 <header>
 
     <div class="container header__container">
