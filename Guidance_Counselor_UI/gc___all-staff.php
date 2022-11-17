@@ -388,7 +388,7 @@ if (!isset($_SESSION['UserEmail'])) {
                         <th>Address</th>
                         <th>Contact Number</th>
                         <th>Position</th>
-                        <th>Profile</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
 
@@ -413,12 +413,21 @@ if (!isset($_SESSION['UserEmail'])) {
                             <td><?= $row['contact'] ?></td>
                             <td><?= $row['position'] ?></td>
 
-                            <td>
+                            <!-- <td>
                               <a href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">
-                                <button type="button" name="view_profile_btn" class="btn btn-primary">View</button>
+                                <button type="button" name="view_profile_btn" class="btn btn-primary">View</button></td>
                             <td><button type="button" name="view_profile_btn" class="btn btn-primary">Edit</button></td>
-                            </a>
+                            </a> -->
+
+                            <td>
+                              <div style="display: flex; justify-content: center;">
+                                <a class="btn btn-primary" style="margin-left: 1px; color: white;"
+                                  href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">View</a>
+                                <a class="btn btn-danger" style="margin-left: 10px; margin-right: 1px; color: white;"
+                                  href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">Edit</a>
+                              </div>
                             </td>
+
                           </tr>
 
                         <?php

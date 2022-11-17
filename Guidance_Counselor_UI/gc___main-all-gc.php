@@ -322,11 +322,20 @@ if (!isset($_SESSION['UserEmail'])) {
                                                         <td><?= $row['address'] ?></td>
                                                         <td><?= $row['contact'] ?></td>
 
-                                                        <td>
-                                                            <!-- <input type="text" value=<?= $row['user_id'] ?> /> -->
+                                                        <!-- <td>
+                                                             <input type="text" value=<?= $row['user_id'] ?> /> 
                                                             <a href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">
                                                                 <button type="button" name="view_profile_btn" class="btn btn-primary">View</button>
                                                             </a>
+                                                        </td> -->
+                                                        
+                                                        <td>
+                                                            <div style="display: flex; justify-content: center;">
+                                                                <a class="btn btn-primary" style="margin-left: 1px; color: white;"
+                                                                href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">View</a>
+                                                                <a class="btn btn-danger" style="margin-left: 10px; margin-right: 1px; color: white;"
+                                                                href="gc___staff_profile.php?id=<?= $row['user_id'] ?>">Edit</a>
+                                                            </div>
                                                         </td>
                                                     </tr>
 
