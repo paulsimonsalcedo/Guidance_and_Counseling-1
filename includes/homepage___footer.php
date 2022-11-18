@@ -11,7 +11,7 @@
 
             <div class="footer__2">
                 <h4>Permalinks</h4>
-                <ul class="permalinks">
+                <ul class="permalinks" style="list-style: none;">
                     <li><a href="homepage___index.php">Home</a></li>
                     <li><a href="homepage___about.php">About</a></li>
                     <li><a href="homepage___articles.php">Articles</a></li>
@@ -22,7 +22,7 @@
 
             <div class="footer__3">
                 <h4>Privacy</h4>
-                <ul class="privacy">
+                <ul class="privacy" style="list-style: none;">
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms and Condition</a></li>
                     <li><a href="#">Refund Policy</a></li>
@@ -33,11 +33,11 @@
                 <h4>Contact Us</h4>
                 <div>
                     <p>+63912345678</p>
-                    <p>ContactUS@gmail.com</p>
+                    <p>career.adviser@angeles.sti.edu</p>
                 </div>
 
-                <ul class="footer__socials">
-                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                <ul class="footer__socials" style="list-style: none;">
+                    <li><a href="https://www.facebook.com/angeles.sti.edu/"><i class="uil uil-facebook-f"></i></a></li>
                     <li><a href="#"><i class="uil uil-instagram"></i></a></li>
                     <li><a href="#"><i class="uil uil-twitter"></i></a></li>
                     <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>

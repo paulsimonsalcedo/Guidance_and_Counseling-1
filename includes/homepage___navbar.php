@@ -4,7 +4,7 @@
           <a href="homepage___index.php">
               <h4>Guidance and Counseling</h4>
           </a>
-          <ul class="nav__menu">
+          <ul class="nav__menu" style="list-style: none;">
               <li><a href="homepage___index.php">Home</a></li>
               <li><a href="homepage___about.php">About</a></li>
               <li><a href="homepage___articles.php">Articles</a></li>
@@ -29,8 +29,6 @@
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                   </button>
-
-              
 
               </div>
               <form action="codeLogin.php" method="POST">
