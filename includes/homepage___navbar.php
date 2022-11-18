@@ -1,9 +1,16 @@
+<style>
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
   <!--=========================START OF NAVBAR=============================-->
   <nav>
       <div class="container nav__container">
           <a href="homepage___index.php">
           <!-- <img src="images/sti_logo.png"/> -->
-
               <h4>Guidance and Counseling</h4>
           </a>
           <ul class="nav__menu" style="list-style: none;">
