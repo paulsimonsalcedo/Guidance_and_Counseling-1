@@ -1,11 +1,15 @@
 <?php
-
 session_start();
 include('includes/homepage___header.php');
 ?>
 
+   <link rel="stylesheet" href="./css/sb-admin-2.min.css">
 
-
+   <style>
+    body{
+        background: #5085A5;
+    }
+   </style>
 <div class="container">
 
     <!-- Outer Row -->
