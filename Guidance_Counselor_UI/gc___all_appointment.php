@@ -416,14 +416,14 @@ if(!isset($_SESSION['UserEmail'])){
                                                 <?php if ($row['app_status'] == "done" || $row['app_status'] == "Done") { ?>
                                                     <!-- <div style="display: <?php if($app_row == "done" || $app_row == "Done") { echo "none"; } else { echo "flex"; } ?>; justify-content: center; text-align: center;"> -->
                                                     <div style="justify-content: center; text-align: center;">
-                                                        <a class="btn btn-primary" style="margin-left: 10px; color: white;" 
+                                                        <a class="btn btn-primary" style="margin-left: 5px; color: white;" 
                                                             href="gc___all_appointment.php?feedback_id=<?= $row['id'] ?>">Add Feedback</a>
                                                     </div>
                                                 <?php } elseif ($row['app_status'] == "in review" || $row['app_status'] == "In Review") { ?>
                                                     <div style="display: flex; justify-content: center;">
                                                         <a class="btn btn-danger" style="margin-left: 10px; color: white;" 
                                                             href="gc___all_appointment.php?cancel_id=<?= $row['id'] ?>">Cancel</a>
-                                                        <a class="btn btn-success" style="margin-left: 10px; color: white;" 
+                                                        <a class="btn btn-success" style="margin-left: 10px; margin-right: 10px; color: white;" 
                                                         href="gc___all_appointment.php?success_id=<?= $row['id'] ?>">Done</a>
                                                     </div>
                                                 <?php } elseif ($row['app_status'] == "cancelled" || $row['app_status'] == "Cancelled") { echo null;
