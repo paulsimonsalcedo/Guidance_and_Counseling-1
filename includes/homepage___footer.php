@@ -10,7 +10,7 @@
 
 
             <div class="footer__2">
-                <h4>Permalinks</h4>
+                <h4>Quick Links</h4>
                 <ul class="permalinks" style="list-style: none;">
                     <li><a href="homepage___index.php">Home</a></li>
                     <li><a href="homepage___about.php">About</a></li>
