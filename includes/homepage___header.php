@@ -29,13 +29,13 @@
     <link rel="stylesheet" href="./css/form.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
-    <link rel="stylesheet" href="./css/sb-admin-2.min.css">
+    <!-- <link rel="stylesheet" href="./css/sb-admin-2.min.css"> -->
 
     <!--CSS main-->
     <link rel="stylesheet" href="./css/homepage___style.css">
 
     <!--CSS About-->
-    <link rel="stylesheet" href="./css/homepage_about___style.css">
+    <!-- <link rel="stylesheet" href="./css/homepage_about___style.css"> -->
 
 
 </head>
