@@ -377,13 +377,13 @@ if (!isset($_SESSION['UserEmail'])) {
 
                     <tr>
                       <td>
-                        <<= $row['id_number'] ?>
+                        <?= $row['id_number'] ?>
                       </td>
                       <td>
-                        <<= $row['last_name'] ?>
+                        <?= $row['last_name'] ?>
                       </td>
                       <td>
-                        <<= $row['first_name'] ?>
+                        <?= $row['first_name'] ?>
                       </td>
                       <td>
                         <?= $row['middle_name'] ?>
