@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STI College Angeles Guidance and Counseling Website</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="./images/sti_angeles_logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="images/sti_logo.png">
 
     <!--ICONSCOUT CDN-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
