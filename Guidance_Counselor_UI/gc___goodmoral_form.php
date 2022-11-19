@@ -8,10 +8,10 @@ $get_name = $_POST['stu_name'];
 $GET = "SELECT first_name,last_name from users where user_id = '$get_name'";
 $execute = $conn->query($GET);
 while ($display = $execute->fetch_assoc()) {
-$font = 'D:\Xampp\htdocs\Guidance_and_Counseling\Guidance_Counselor_UI\DancingScript-Bold.TTF';
+$font = 'C:/xampp\htdocs\Guidance_and_Counseling\Guidance_Counselor_UI\Arimo-Bold.TTF';
 $image = imagecreatefromjpeg("certificate.jpg");
 $color = imagecolorallocate($image, 19, 21, 22);
-$name = $display['first_name'] . "," . $display['last_name'];
+$name = $display['first_name'] . " " . $display['last_name'];
 imagettftext($image, 40, 0, 850, 750, $color, $font, $name);
  for ($num = 1; $num < 1000; $num++) { } 
 imagejpeg($image, "insertedCert/Picture.$num.jpg" ); 
