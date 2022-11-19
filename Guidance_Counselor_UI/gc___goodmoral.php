@@ -137,7 +137,7 @@ $con = mysqli_connect("localhost", "root", "", "guidance_and_counseling");
 
         
 
-        <form action="pupuntahan.php" method="POST">
+        <form action="gc___goodmoral_form.php" method="POST">
             <table border="1">
                     <thead>
                     <tr>    
