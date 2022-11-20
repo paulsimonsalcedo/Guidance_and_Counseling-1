@@ -16,27 +16,6 @@ $con = mysqli_connect("localhost", "root", "", "guidance_and_counseling");
 
         
 ?>
-<style>
-  #search_box input[type="text"]
-{
- width:180px;
- height:45px;
- padding-left:10px;
- font-size:18px; 
- margin-bottom:15px;
- color:#424242;
- border:none;
-}
-#search_box input[type="submit"]
-{
- width:100px;
- height:45px;
- background-color:#585858;
- color:white;
- border:none;
-}
-
-</style>
 
 <!doctype html>
 <html class="no-js" lang="en">
