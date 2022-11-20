@@ -8,7 +8,7 @@ $get_name = $_POST['stu_name'];
 $GET = "SELECT first_name,last_name from users where user_id = '$get_name'";
 $execute = $conn->query($GET);
 while ($display = $execute->fetch_assoc()) {
-$font = 'C:/xampp\htdocs\Guidance_and_Counseling\Guidance_Counselor_UI\Arimo-Bold.TTF';
+$font = 'C:/xampp\htdocs\UPDATE\Arimo-Bold.TTF';
 $image = imagecreatefromjpeg("certificate.jpg");
 $color = imagecolorallocate($image, 19, 21, 22);
 $name = $display['first_name'] . " " . $display['last_name'];

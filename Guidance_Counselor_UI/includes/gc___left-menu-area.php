@@ -71,7 +71,8 @@
                     <li>
                         <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Appointment</span></a>
                         <ul class="submenu-angle" aria-expanded="false">
-                            <li><a title="All Library" href="gc___all_appointment.php"><span class="mini-sub-pro">View all appointment</span></a></li>
+                            <li><a title="All Librarya" href="gc___all_appointment.php"><span class="mini-sub-pro">Pending Appointment</span></a></li>
+                            <li><a title="All Library" href="gc___all_appointment.php"><span class="mini-sub-pro">All Appointments</span></a></li>
                             <!-- <li><a title="Add Library" href="gc___appointment_sched.php"><span class="mini-sub-pro">Set Appointment Schedule</span></a></li> -->
                             <li><a title="Edit Library" href="gc___calendar.php"><span class="mini-sub-pro">Calendar</span></a></li>
                         </ul>
