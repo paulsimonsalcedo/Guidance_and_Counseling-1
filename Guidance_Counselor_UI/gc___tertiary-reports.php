@@ -13,6 +13,16 @@
         $con = connection();
 
 ?>
+<style>
+td, tr ,th
+{ 
+border:solid;
+margin-right:auto;
+border-style:2px;
+border-top:solid;
+border-bottom:solid;
+}
+</style>
 
 <!doctype html>
 <html class="no-js" lang="en">
