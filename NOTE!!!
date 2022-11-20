@@ -1,0 +1,17 @@
+
+-telecounseling, setting up the msteams video or conferencing
+-restore database using button in backup and restore tab
+-auto backup every month
+-ayusin yung homepage, maglagay ng pictures for guidance and counseling
+-set up a carousel na nandun yung mga pictures
+-list set of articles every month in a word file muna then ilagay sa database yung mga list of articles and pictures
+-auto generate articles and pics sa homepage
+-ayusin yung mga file maintenance and polish 
+-every pasok ng name na nasa excel file should be in proper format, instead of ABIGAIL NAZAL, it should be Abigail Nazal
+- searching of students in appointment and referral dapat maayos na, nakakapagsearch and apply sa mismong modal form
+- ayusin yung nasa messaging dapat dinidisplay lang is yung may existing message na, hindi yung kahit wala pang message nakadisplay sa messaging tab
+- ayusin yung mga UI ng staff and students
+- include and reflect all the data sa reports for tertiary and shs 
+- sa admin side, make sure there is add, edit, update and delete/archive button for the file maintenance
+- include the auto archiving of data in every sem
+- and also include ng audit trail and records of user activity log in audit trail tab
