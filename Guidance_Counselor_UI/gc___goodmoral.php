@@ -133,58 +133,18 @@ $con = mysqli_connect("localhost", "root", "", "guidance_and_counseling");
     </div>
   </div>
   </div>
-  <?php include('includes/gc___mobile_menu.php')  ?>
+ 
 
         
 
-        <form action="gc___goodmoral_form.php" method="POST">
-            <table border="1">
-                    <thead>
-                    <tr>    
-                            <th>
-                            
-                            </th>
-                            <th>
-                                ID
-                            </th>
-                            <th>
-                                LastName
-                            </th>
-                            <th>
-                                FirstName
-                            </th>
-                            <th>
-                                Gender
-                            </th>
-                        </tr>
-                    </thead>
-                
-                    <?php do{ ?>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" name="stu_name" value=" <?= $get['user_id'];?>">
-                                </td>
-                                <td>
-                                   <?= $get['user_id'];?>
-                                </td>
-                                <td>
-                                   <?= $get['last_name'];?>
-                                </td>
-                                <td>
-                                   <?= $get['first_name'];?>
-                                </td>
-                                <td>
-                                   <?= $get['gender'];?>
-                                </td>
-                            </tr>
-                    <?php }while($get = $execute -> fetch_assoc()); ?>    
-                    </thead>
-                   
-            </table>
-            <input type="submit" name="submit" value="confirm">
-        </form>
-
-
+  <div class="container" style="display: flex; height: 500px;">
+        <div style="width: 50%; background: #F1C40F;">
+          <!-- dito mo na lagay yung search engine  -->
+        </div>
+        <div style="flex-grow: 1; background: #1569C7;">
+            <!-- tapos dito na yung certicate -->
+        </div>
+    </div>
 
       
 

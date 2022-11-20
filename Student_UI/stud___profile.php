@@ -50,9 +50,10 @@ include('includes/stud___mobile_menu.php');
         box-sizing: border-box;
     }
 
-    #inventory-form-container {
+    /* #inventory-form-container 
+    {
         
-    }
+    } */
 
     .container {
         position: relative;
@@ -86,7 +87,7 @@ include('includes/stud___mobile_menu.php');
     .container form {
         position: relative;
         margin-top: 16px;
-        min-height: 2850px;
+        /* min-height: 2850px; */
         background-color: #fff;
         overflow: hidden;
     }
@@ -323,8 +324,6 @@ include('includes/stud___mobile_menu.php');
 
     .accordion {
         position: relative;
-        /* width: 360px;
-        top: 150px; */
         margin: 0 auto;
         border-radius: 8px;
         overflow: hidden; 
@@ -332,7 +331,7 @@ include('includes/stud___mobile_menu.php');
 
     .accordion-item {
         position: relative;
-        background=color: #FFFFFF;
+        background-color: #FFFFFF;
         /* background-color: red; */
         border-bottom: 2px solid #eaeaea;
     }
@@ -345,7 +344,7 @@ include('includes/stud___mobile_menu.php');
         background: linear-gradient(90deg, #fd79a8, #74b9ff);
         top: 48px;
         left: 0;
-        tramsition: all linear 0.5s;
+        transition: all linear 0.5s;
     }
 
     .accordion-item[open]:before{
@@ -591,7 +590,6 @@ include('includes/stud___mobile_menu.php');
                                                 </div>
                                             </div>
 
-
                                         </div>
                                     </div>
                                 </div>
@@ -604,12 +602,14 @@ include('includes/stud___mobile_menu.php');
                                     <div class="review-content-section">
                                         <div class="row">
                                             <div class="col-lg-12">
+                                        
+
+                                        
 
                                                 <!-- INDIVIDUAL INVENTORY FORM -->
                                                 <div id="inventory-form-cointainer">
                                                     <div class="container">
                                                         <header>Individual Inventory Form</header>
-
                                                         <form action="#" id="student-form">
                                                             <div class="form first">
 
