@@ -16,7 +16,27 @@ $con = mysqli_connect("localhost", "root", "", "guidance_and_counseling");
 
         
 ?>
+<style>
+  #search_box input[type="text"]
+{
+ width:180px;
+ height:45px;
+ padding-left:10px;
+ font-size:18px; 
+ margin-bottom:15px;
+ color:#424242;
+ border:none;
+}
+#search_box input[type="submit"]
+{
+ width:100px;
+ height:45px;
+ background-color:#585858;
+ color:white;
+ border:none;
+}
 
+</style>
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -138,13 +158,20 @@ $con = mysqli_connect("localhost", "root", "", "guidance_and_counseling");
         
 
   <div class="container" style="display: flex; height: 500px;">
-        <div style="width: 50%; background: #F1C40F;">
-          <!-- dito mo na lagay yung search engine  -->
+        <div style="width: 25%; background: #191970;">
+        <div id="search_box">
+          <form >
+            <input type="text" id="search_term" name="search_term" placeholder="Enter Search" >
+            <input type="submit" name="search" value="SEARCH">
+          </form>
+          </div>
+       
         </div>
-        <div style="flex-grow: 1; background: #1569C7;">
-            <!-- tapos dito na yung certicate -->
+        <div style="flex-grow: 1; width:75%; background: #566573;">
+          <embed src="SAMPLE_GOOD_MORAL_CERTIFICATE_1.pdf" width="100%" height="100%"  type="application/pdf">
+                                
         </div>
-    </div>
+  </div>
 
       
 
